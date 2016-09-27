@@ -1,0 +1,10 @@
+<html>
+
+<head>
+	<title>Home Page</title>
+</head>
+<body>
+	<p>Practice Page Link:</p>
+	<a href = "C:\Users\tiana1507\Desktop\AndrewTianPortfolio.github.io\Practice.html"> Link </a>
+</body>
+</html>
