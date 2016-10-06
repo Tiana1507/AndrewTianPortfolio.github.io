@@ -3,34 +3,67 @@
 <html>
 
 <head>
-	<meta charset="UTF-8">
-	<title>Div Tag Template</title>
-	<style> 
-		body {
-			background: Orange;
-			font: 100% Times;
-		}
-		h1 {
-			font: 300% Georgia;
-			color: grey;
-		}
-		n2 {
-			font: 200% Arial;
-			color: darkgreen;
-		}
-		p {
-			color: grey;
-		}
-		#wrapper {
-			width: 1100 px;
-			margin: 0 auto;
-			padding: 0 50px;
-			text-align: left;
-			position: relative;
-		}
-		
-	</style>
-	
+ <meta charset="UTF-8">
+ <title>Div Tag Template</title>
+ <style> 
+  body {
+   background: Orange;
+   font: 100% Times;
+  }
+  h1 {
+   font: 300% Georgia;
+   color: grey;
+  }
+  n2 {
+   font: 150% Arial;
+   color: grey;
+  }
+  p {
+   color: grey;
+  }
+  
+  #wrapper {
+   width: 1100 px;
+   margin: 0 auto;
+   padding: 0 50px;
+   text-align: center;
+   position: relative;
+  }
+  
+  #mainHeader {
+   height: 185px;
+   background: url(images/logo.png) no-repeat 25px center;
+   padding: 75 px 0 0 300px;
+   position: relative;
+   border-bottom: 2px solid #7f7f7f;
+   margin-bottom: 16px;
+  }
+  #mainHeader div {
+   margin-top: 16px;
+  }
+  #mainHeader ul {
+   list-style: none;
+   float: center;
+  }
+  #mainHeader ul li {
+   float: left;
+  }
+  #mainHeader ul li a {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   color: #000;
+   padding: 0 20px;
+   border-right: 1px solid #000;
+   text-decoration: none;
+  }
+  #mainHeader ul li a.last {
+   border-right: none;
+  }
+  #mainHeader ul li a:hover {
+   color: #c000;
+  }
+ </style>
+ 
 </head>
 
 <body>
@@ -39,39 +72,37 @@
 <div id="wrapper">
 
 <!-- Page Header - Logo, Title, Links-->
-	<div id ="mainHeader">
-		
-		<h1>Exploring Computer Science</h1>
-		<h2>My Collection of Programming Projects and Assignments</h2>
-		<!-- Site Navigation Links -->
-		<div id ="mainNavigation" >
-			<ul id="pages">
-				<li> <a href="#">Scratch</a></li>
-				<li> <a href="#">Python</a></li>
-				<li> <a href="#">Java</a></li>
-				<li> <a href="#">Final Project</a></li>
-			</ul>
-		</div> <!-- End Navigation -->
-	</div> <!-- End Header -->
+ <header id ="mainHeader">
+  
+  <h1>Exploring Computer Science</h1>
+  <h2>My Collection of Programming Projects and Assignments</h2>
+  <!-- Site Navigation Links -->
+  <div id ="mainNavigation" >
+   <ul id="pages">
+    <li> <a href="#">Scratch</a></li>
+    <li> <a href="#">Python</a></li>
+    <li> <a href="#">Java</a></li>
+    <li> <a href="#">Final Project</a></li>
+   </ul>
+  </div> <!-- End Navigation -->
+ </header> <!-- End Header -->
 
-	<!-- Section Content: Projects and Assignments -->
-	<div id ="content">
-		<p> Replace this Text with "Project and Assignments" </p>
-	</div> <!-- End Content -->
-	
-	<!-- Aside Content - Hobbies and Intrests -->
-	<div id ="hobbies">
-		<p> Replace this Text with "Hobbies" can contain photos, intrests, links, videos, etc.</p>
-	</div> <!-- End Hobbies -->
-	
-	<!-- Footer Content -->
-	<div id="pageFooter">
-		<p> Replace this Text with "Footer" can contain author, contact, & copyright </p>
-	</div> <!-- end Footer -->
-	
+ <!-- Section Content: Projects and Assignments -->
+ <section id ="content">
+  <p> Replace this Text with "Project and Assignments" </p>
+ </section> <!-- End Content -->
+ 
+ <!-- Aside Content - Hobbies and Intrests -->
+ <aside id ="hobbies">
+  <p> Replace this Text with "Hobbies" can contain photos, intrests, links, videos, etc.</p>
+ </aside> <!-- End Hobbies -->
+ 
+ <!-- Footer Content -->
+ <footer id="pageFooter">
+  <p> Replace this Text with "Footer" can contain author, contact, & copyright </p>
+ </footer> <!-- end Footer -->
+ 
 </div> <!-- End wrapper -->
-
-
 
 </body>
 
