@@ -1,20 +1,11 @@
 @charset "UTF-8";
 
 body {
-	background: #cc3300;
-	font: 100% Times, Georgia, serif;
+	background: orange;
+	font: 100% Times, serif;
 }
 h1 {
 	font: 300% Times, Helvetica, sans-serif;
-	color: white;
-}
-
-h2 {
-	font: 200%% Times;
-	color: white;
-}
-
-h3 {
 	color: white;
 }
 
@@ -49,7 +40,7 @@ header#mainHeader ul li {
 header#mainHeader ul li a {
 	font-family: Times, Helvetica, sans-serif;
 	font-size:20px;
-	color: #000;
+	color: white;
 	padding: 0 20px;
 	border-right: 1px solid white;
 	text-decoration: none;
@@ -75,7 +66,7 @@ section#content p {
 	margin-bottom: 10px;
 }
 
-aside#hobbies {
+aside#hobbies p{
 	font-size: 90%;
 	float: right;
 	width: 450px;
@@ -94,4 +85,3 @@ footer#pageFooter p {
 	margin-bottom: 10px;
 	color: white;
 }
-		
