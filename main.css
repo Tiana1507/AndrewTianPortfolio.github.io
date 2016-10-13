@@ -18,6 +18,12 @@ h2 {
 	text-shadow: 1px 1px white;
 }
 
+h3 {
+	font: Times;
+	color: black;
+	text-shadow: 1px 1px white;
+}
+
 p {
 	color: black;
 }
@@ -89,6 +95,11 @@ section#content p {
 }
 
 section#content li {
+	color: black;
+	text-shadow: 1px 1px white;
+}
+
+section#content a {
 	color: black;
 	text-shadow: 1px 1px white;
 }
