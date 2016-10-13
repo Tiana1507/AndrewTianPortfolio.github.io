@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
 body {
-	background-image: url("https://static.squarespace.com/static/51c071efe4b03a0f7c9c5a62/t/51d19e99e4b02caa0041753c/1372692121774/shutterstock_34745752%202.jpg");
+	background-image: url("https://minuteastrologer.files.wordpress.com/2015/06/sunsetmars.jpg");
 	font: 100% Times, serif;
+	/*Old Map Background https://static.squarespace.com/static/51c071efe4b03a0f7c9c5a62/t/51d19e99e4b02caa0041753c/1372692121774/shutterstock_34745752%202.jpg */
+	/*Mars Background https://minuteastrologer.files.wordpress.com/2015/06/sunsetmars.jpg */
 }
 h1 {
 	font: 300% Times, Helvetica, sans-serif;
