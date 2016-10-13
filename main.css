@@ -1,16 +1,29 @@
 @charset "UTF-8";
 
 body {
-	background: orange;
+	background-image: url("https://static.squarespace.com/static/51c071efe4b03a0f7c9c5a62/t/51d19e99e4b02caa0041753c/1372692121774/shutterstock_34745752%202.jpg");
 	font: 100% Times, serif;
 }
 h1 {
 	font: 300% Times, Helvetica, sans-serif;
-	color: white;
+	color: black ;
+	text-shadow: 2px 2px grey;
+}
+
+h2 {
+	font: Times;
+	color: black;
+	text-shadow: 1px 1px grey;
 }
 
 p {
-	color: white;
+	color: black;
+}
+
+mark {
+	background-color: white;
+	color: black;
+	text-shadow: 2px 2px grey;
 }
 #wrapper {
 	width: 1100px;
@@ -18,6 +31,7 @@ p {
 	padding: 0 50px;
 	text-align: left;
 	position: relative;
+	color: black;
 }
 header#mainHeader {
 	height: 185px;
@@ -25,11 +39,13 @@ header#mainHeader {
 	background: url(images/logo.png) no-repeat 25px center;
 	padding: 0 75px 0 300px;
 	position: relative;
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid black;
 	margin-bottom:16px;
+	text-shadow: 2px 2px grey;
 }
 header#mainHeader div{
 	margin-top: 16px;
+	
 }
 header#mainHeader ul{
 	list-style: none;
@@ -41,16 +57,18 @@ header#mainHeader ul li {
 header#mainHeader ul li a {
 	font-family: Times, Helvetica, sans-serif;
 	font-size:20px;
-	color: white;
+	color: black;
 	padding: 0 20px;
-	border-right: 1px solid white;
+	border-right: 1px solid black;
 	text-decoration: none;
+	text-shadow: 2px 2px grey;
 }
 header#mainHeader ul li a.last{
 	border:none;
 }
 header#mainHeader ul li a:hover{
-	color: white;
+	color: black;
+	text-shadow: 1px 1px grey;
 }
 
 section#content {
@@ -58,11 +76,11 @@ section#content {
 	width: 600px;
 	padding: 0 10px 0 25px;
 	margin-bottom: 10px;
-	border-right: 1px solid white;
+	border-right: 1px solid #181818;
 }
 
 section#content p {
-	color: white;
+	color: black;
 	line-height: 1.6;
 	margin-bottom: 10px;
 }
@@ -76,7 +94,7 @@ aside#hobbies {
 
 footer#pageFooter {
 	clear: both;
-	border-top: 2px solid white;
+	border-top: 2px solid black;
 	padding: 20px;
 }
 
@@ -84,5 +102,6 @@ footer#pageFooter p {
 	text-align: center;
 	font-style: italic;
 	margin-bottom: 10px;
-	color: white;
+	color: black;
+	text-shadow: 2px 2px grey;
 }
